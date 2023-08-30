@@ -1,4 +1,4 @@
-
+// Day 1 Java Training
 public class ArraysDemo {
 
 	public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class ArraysDemo {
 			System.out.println(ar[i]);
 		}
 		
-        // Using for-each loop
+        // Using for-each loop 
 		for (int i : ar) {
 			System.out.println(i);
 		}
