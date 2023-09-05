@@ -124,6 +124,11 @@ public class AlbumMenu {
 				System.out.println("Enter New Genre: ");
 				String newGenre = console.nextLine();
 				albumToUpdate.setGenre(newGenre);
+				String newArtist = console.nextLine();
+				albumToUpdate.setArtist(newArtist);
+				String newTitle = console.nextLine();
+				albumToUpdate.setTitle(newTitle);
+				
 				albumDao.update(albumToUpdate);
 				System.out.println("Album updated successfully!");
 			} else {
